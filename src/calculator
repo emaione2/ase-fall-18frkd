@@ -24,7 +24,7 @@ def divide(m,n):
         sign = sign * (-1)
     while(m>=0):
         m=m-n
-        if(m>=0):
+        if(m>=0): # asdf
             res+=1
     return res*sign
 
