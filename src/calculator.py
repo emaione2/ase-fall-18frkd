@@ -1,4 +1,5 @@
-def sum(m,n):
+
+def mysum(m,n):
     res = m
     if n<0:
         for i in range(0, -n):
@@ -9,9 +10,9 @@ def sum(m,n):
 
     return res
 
-a=21
-b=-3
-print("sum->",a,"+",b,"=",sum(a,b))
+#a=21
+#b=-3
+#print("sum->",a,"+",b,"=",mysum(a,b))
 
 def divide(m,n):
     res=0
@@ -28,9 +29,8 @@ def divide(m,n):
             res+=1
     return res*sign
 
-a=-21
-b=3
-print("divide->",a,":",b,"=",divide(a,b))
+#a=-21
+#b=3
+#print("divide->",a,":",b,"=",divide(a,b))
 
-#class calculator:
-#    def __init__(self):
+print("Fine")
