@@ -25,3 +25,30 @@ def divide(m, n):
         m -= n
         result += 1
     return sign * result
+
+def subtract(m,n):
+    res = m
+    if n > 0:
+        for i in range(0, n):
+            res -= 1
+    else:
+        for i in range(0, -n):
+            res += 1
+
+    return res
+
+def multiply(m,n):
+    if(m==0 or n==0):
+        return 0
+
+    res = 0
+    sign = 1
+    if (m < 0):
+        m = abs(m)
+        sign = sign * (-1)
+    if (n < 0):
+        n = abs(n)
+        sign = sign * (-1)
+    for i in range(n):
+        res+=m
+    return res * sign
